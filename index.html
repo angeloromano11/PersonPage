@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css" >
+  <link rel="stylesheet" type="text/css" href="../fullpage.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Press+Start+2P&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet" >
+  <title>A.R</title>
+</head>
+<body>
+
+<div id="fullpage" class="fp-responsive"> 
+
+
+  <div class="section fp-auto-height-responsive">
+    <div class="content">
+      <div id="header">
+        <!-- Top navigation -->
+        <div class="header topnav">
+          <ul id="myMenu"></ul>
+          <!-- Centered link -->
+          <div class="topnav-centered"></div>
+    
+          <!-- Left-aligned links (default) -->
+          <div class="topnav-left">
+            <li data-menuanchor="firstPage" class="active"><a href="#firstPage">Angelo Romano</a></li>
+          </div>
+          
+          <!-- Right-aligned links -->
+          <div class="topnav-right">
+              <li data-menuanchor="secondPage"><a href="#secondPage">ABOUT</a></li>
+              <li data-menuanchor="thirdPage"><a href="#thirdPage">WORK</a></li>
+              <li data-menuanchor="fourthPage"><a href="#fourthPage">INTERESTS</a></li>
+              <li data-menuanchor="lastPage"><a href="#lastPage">CONTACT</a></li>
+          </div>
+        </ul>
+        </div>
+      </div>
+    
+      <div class="flex-container">
+        <div class="flex-item-left">
+          <div class="picture">
+            <img id="profilePic" class="static" src="../img/profilepic.png">
+            <img id="profileGif" class="active" src="../img/ezgif.com-gif-maker.gif">
+          </div>
+        </div>
+        <div class="flex-item-right">
+          <div class="description">
+            <p class="descriptionText" >
+            I’m a living thing,</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="section fp-section fp-table active">
+    <div class="content2" data-anchor="secondPage">
+      <div class="flex-container2">
+        <div class="flex-item-left2">
+          <div class="description2">
+            <p class="descriptionText2" >
+              I assist teams and help them to achieve their goals, through planning the best strategy to spot bugs in their code, using manual or <a class="descriptionLink" href='#automated'>automated testing</a>; But the good part of this process really is to think different, to be creative in order to take the code beyond customers and to make it a pice of functional art that can fit and fulfil it purpose.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="section fp-section fp-table active">
+    <div class="content3" data-anchor="thirdPage">
+      <div class="NewClass3">
+        <div class="topElement3">
+          <div class="description3">
+            <p class="descriptionText3" >
+            <br><br>
+              Top element, companies here.</p>
+          </div>
+        </div>
+        <div class="botomElement3">
+          <div class="description3">
+            <p class="descriptionText3" >
+            <br><br>
+              bottom element skills here.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section fp-section fp-table active">
+    <div class="content4" data-anchor="fourthPage">
+      <div class="NewClass4" class="row">
+        <div id= "leftElement4" class="leftElement4 column">
+          <div class="description4">
+            <p class="descriptionText4" >
+            <br><br>
+              books</p>
+          </div>
+        </div>
+        <div id= "middleElement4" class="middleElement4 column">
+          <div class="description4">
+            <p class="descriptionText4" >
+            <br><br>
+              hobbies</p>
+          </div>
+        </div>
+        <div id="rightElement4" class="rightElement4 column">
+          <div class="description4">
+            <p class="descriptionText4" >
+            <br><br>
+              projects</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section fp-section fp-table">
+    <div class="content5"  data-anchor="lastPage" style= "background-image: url(//img/baldosaBarna.png);">
+          <div class="flex-container5">
+            <div class="flex-item-left5">
+              <div class="description5">
+                <p class="descriptionText5" >
+                  Contact information here  ...</p>
+                  <div class="containerContact">
+                      <label for="fname">Your Email</label>
+                      <input type="text" id="fname" name="firstname" placeholder="trunk@capsulecorp.com..">
+                  
+                      <label for="lname">Subject</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  
+                      <label for="subject">Message</label>
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  
+                      <input class="buttonGeneral" type="submit" value="Submit">
+                  
+                  </div>
+      
+              </div>
+            </div>
+          </div>
+      
+    </div>
+  </div>
+
+  <footer id="footer">
+    <div class="section fp-auto-height">
+      <div class = 'footer5'>
+        <p>Footer &copy; All rights reserved </p>
+        <div>LOGO</div>
+        <instagram> insta</instagram>
+        <twitter>twitter</twitter>
+        <linkedin>linkedin</linkedin>
+      </div>
+     </div>
+  </footer>
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.js" integrity="sha512-AN4AFl65rG9R5oQapfUmU0yF0oVeCX7oHK8duXZ5CZqrVlipNtoNsPB9KFVK0rdfrbdoQNqicbWcjQqvURdIgg==" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r124/three.min.js" integrity="sha512-jeYvJdyAYkpQCY/omvCYQo89qA5YxDW4JBT7COPsHT2sOAanwxkZRFeP9gc69b5reSDpZIoyCqZQZcWZkbB5Gw==" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../fullpage.js"></script>
+  <script type="text/javascript" src="../logic.js"></script>
+  
+</body>
+</html>
