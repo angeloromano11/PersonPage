@@ -1,0 +1,8 @@
+/node_modules
+/img
+
+
+## Ignore Mac OS Stuff
+.DS_Store
+.AppleDouble
+.LSOverride
